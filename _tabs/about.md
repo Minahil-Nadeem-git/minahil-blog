@@ -3,7 +3,7 @@ title: About
 icon: fas fa-user
 order: 2
 layout: page
-permalink: /about/
+permalink: "/about/"
 ---
 
 ## About Me
