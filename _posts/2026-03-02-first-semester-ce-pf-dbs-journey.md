@@ -23,21 +23,7 @@ These courses helped me develop core technical skills such as logical thinking, 
 **Program:** Computer Engineering  
 **Semester:** 2nd Semester  
 
----
 
-## 📑 Table of Contents
-1. [My First Step into PF and DBS](#1-my-first-step-into-pf-and-dbs)  
-2. [Learning Programming Fundamentals](#2-learning-programming-fundamentals)  
-3. [Introduction to Database Systems](#3-introduction-to-database-systems)  
-4. [Problem Solving Through PF](#4-problem-solving-through-pf)  
-5. [Understanding Data Through DBS](#5-understanding-data-through-dbs)  
-6. [Balancing PF Labs and University Life](#6-balancing-pf-labs-and-university-life)  
-7. [Challenges in PF and DBS](#7-challenges-in-pf-and-dbs)  
-8. [Growth in Technical Skills](#8-growth-in-technical-skills)  
-9. [Motivation Through Small Achievements](#9-motivation-through-small-achievements)  
-10. [Future Goals in PF and DBS](#10-future-goals-in-pf-and-dbs)  
-
----
 
 ## 1️⃣ My First Step into PF and DBS
 **Reflections:**  
