@@ -1,8 +1,13 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+title: About
+icon: fas fa-user
+order: 2
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## About Me
+
+**Name:** Minahil Nadeem  
+**Program:** Computer Engineering  
+**Semester:** 2nd  
+
+This portfolio highlights my journey in **PF** and **DBS**, including my reflections and learning experiences.
