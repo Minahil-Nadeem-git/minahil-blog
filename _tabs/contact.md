@@ -2,6 +2,8 @@
 title: Contact
 icon: fas fa-envelope
 order: 3
+layout: page
+permalink: /contact/
 ---
 
 ## Contact Me
