@@ -1,7 +1,8 @@
 ---
 title: "Computer Engineering Journey – Focus on PF & DBS"
 date: 2026-03-02
-categories: [DBS]
+categories: [Portfolio]
+tags: [PF, DBS]
 layout: post
 comments: true
 toc: true
