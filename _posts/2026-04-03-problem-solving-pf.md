@@ -2,6 +2,10 @@
 title: "Problem Solving Through PF"
 date: 2026-04-03
 categories: [PF]
+layout: post
+comments: true
+toc: true
+permalink: /posts/problem-solving-pf/
 ---
 
 - Developed logical thinking by solving programming problems.  
