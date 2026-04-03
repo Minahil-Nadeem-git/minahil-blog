@@ -9,6 +9,9 @@ toc: true
 permalink: /posts/learning-dbs-basics/
 ---
 
+![b3be3a3d7253c5e0d796574cae5a3391](https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a)
+
+
 # 🖥️ My Computer Engineering Journey – First Semester
 
 ## 👋 Introduction
