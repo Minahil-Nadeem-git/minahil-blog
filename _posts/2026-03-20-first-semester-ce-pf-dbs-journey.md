@@ -1,7 +1,7 @@
 ---
 title: "Building Skills in Programming & Databases"
 date: 2026-03-20
-categories: [Computing Journey]
+categories: Exploring Programming Fundamentals & Database Systems
 tags: [PF, DBS]
 layout: post
 comments: true
