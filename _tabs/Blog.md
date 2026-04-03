@@ -31,9 +31,14 @@ order: 1
         <p class="mb-2 text-muted">
           {{ post.excerpt | strip_html | truncate: 130 }}
         </p>
-<a href="{{ post.url | relative_url }}" class="btn btn-sm btn-primary mt-2">
-  Read More →
-</a>
+
+        <!-- ✅ Read More Button -->
+        <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-primary mt-2">
+          Read More →
+        </a>
+
+        <br>
+
         <small class="text-muted">
           {{ post.date | date: "%b %d, %Y" }}
         </small>
