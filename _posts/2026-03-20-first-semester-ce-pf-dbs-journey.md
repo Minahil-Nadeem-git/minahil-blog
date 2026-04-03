@@ -1,7 +1,7 @@
 ---
-title: "Computer Engineering Journey – Focus on PF & DBS"
+title: "Building Skills in Programming & Databases"
 date: 2026-03-20
-categories: [Portfolio]
+categories: [Computing Journey]
 tags: [PF, DBS]
 layout: post
 comments: true
