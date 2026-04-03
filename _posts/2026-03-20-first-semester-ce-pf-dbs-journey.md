@@ -6,7 +6,6 @@ tags: [PF, DBS]
 layout: post
 comments: true
 toc: true
-permalink: /posts/learning-dbs-basics/
 image:
   path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
   alt: Coding
