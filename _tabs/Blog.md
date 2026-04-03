@@ -6,44 +6,41 @@ order: 1
 ---
 
 <div class="container">
+
   {% for post in site.posts %}
-    <div class="card mb-4 shadow-sm">
 
-      <div class="row g-0 align-items-center">
+  <div class="card mb-4 shadow-sm border-0">
+    <div class="d-flex flex-row">
 
-        {% if post.image %}
-        <div class="col-md-4">
-          <img src="{{ post.image.path | relative_url }}"
-               class="img-fluid rounded-start"
-               style="height: 200px; width: 100%; object-fit: cover;"
-               alt="{{ post.image.alt }}">
-        </div>
-        {% endif %}
+      {% if post.image %}
+      <div style="flex: 0 0 300px;">
+        <img src="{{ post.image.path | relative_url }}"
+             alt="{{ post.image.alt }}"
+             style="height: 100%; width: 100%; object-fit: cover; border-radius: 10px 0 0 10px;">
+      </div>
+      {% endif %}
 
-        <div class="col-md-8">
-          <div class="card-body">
+      <div class="p-3" style="flex: 1;">
 
-            <h5 class="card-title">
-              <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-                {{ post.title }}
-              </a>
-            </h5>
+        <h4 class="mb-2">
+          <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+            {{ post.title }}
+          </a>
+        </h4>
 
-            <p class="card-text">
-              {{ post.excerpt | strip_html | truncate: 120 }}
-            </p>
+        <p class="mb-2 text-muted">
+          {{ post.excerpt | strip_html | truncate: 130 }}
+        </p>
 
-            <p class="card-text">
-              <small class="text-muted">
-                {{ post.date | date: "%b %d, %Y" }}
-              </small>
-            </p>
-
-          </div>
-        </div>
+        <small class="text-muted">
+          {{ post.date | date: "%b %d, %Y" }}
+        </small>
 
       </div>
 
     </div>
+  </div>
+
   {% endfor %}
+
 </div>
