@@ -67,6 +67,7 @@ INSERT INTO orders VALUES
 ## 4️⃣ CHECK TABLE
 ```sql
 SELECT * FROM orders;
+
 ```
 <img width="819" height="129" alt="imp" src="https://github.com/user-attachments/assets/80791cb4-c8c7-486c-83ce-eaecc7ee2638" />
 
@@ -76,6 +77,7 @@ FROM orders
 WHERE order_price > 1000;
 ```
 <img width="355" height="141" alt="2" src="https://github.com/user-attachments/assets/d73a6906-5f65-4b69-a253-61ee9dd2451f" />
+
 
 ```sql
 SELECT * FROM orders WHERE rating > 4.5;
