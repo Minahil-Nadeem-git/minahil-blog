@@ -78,7 +78,6 @@ WHERE order_price > 1000;
 ```
 <img width="355" height="141" alt="2" src="https://github.com/user-attachments/assets/d73a6906-5f65-4b69-a253-61ee9dd2451f" />
 
-
 ```sql
 SELECT * FROM orders WHERE rating > 4.5;
 ```
