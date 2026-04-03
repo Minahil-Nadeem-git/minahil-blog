@@ -166,7 +166,7 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
 ---
-
+```      
 ## 📈 Results
 
 - Achieved an accuracy of **78%** on test data  
