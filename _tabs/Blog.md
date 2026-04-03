@@ -11,7 +11,7 @@ order: 1
       <div class="card mb-4">
 
         {% if post.image %}
-        <img src="{{ post.image }}" class="card-img-top" alt="thumbnail">
+        <img src="{{ post.image.path }}" class="card-img-top" alt="{{ post.image.alt }}">
         {% endif %}
 
         <div class="card-body">
@@ -20,10 +20,10 @@ order: 1
           </h5>
 
           <p class="card-text">
-            {{ post.excerpt | strip_html | truncate: 100 }}
+            {{ post.excerpt | strip_html | truncate: 120 }}
           </p>
-        </div>
 
+        </div>
       </div>
     </div>
   {% endfor %}
