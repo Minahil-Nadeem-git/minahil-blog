@@ -9,9 +9,10 @@ layout: post
 comments: true
 toc: true
 image:
-  path: https://github.com/user-attachments/assets/98c90e22-ad9b-43a5-a136-9c97e562ba33
+  path: https://github.com/user-attachments/assets/43937498-47c4-466a-8e61-2df6da74085a
   alt: SQL Database
 ---
+
 
 This post presents a comprehensive machine learning project for loan approval prediction, focusing on data preprocessing, feature engineering, and classification using a Random Forest model.
 
