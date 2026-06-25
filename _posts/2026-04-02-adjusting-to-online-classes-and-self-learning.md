@@ -2,7 +2,7 @@
 
 title: "Adjusting to Online Classes and Self-Learning"
 date: 2026-04-02
-categories: [Programming Discoveries, The Beginning of My Tech Journey]
+categories: [2nd Semester, Academic Life]
 tags: [OnlineClasses, SelfLearning, ComputerEngineering]
 layout: post
 comments: true
