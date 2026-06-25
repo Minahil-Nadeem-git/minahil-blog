@@ -180,3 +180,5 @@ This project demonstrates how machine learning can automate loan approval decisi
 The Random Forest model provided reliable predictions and handled the dataset effectively.
 
 ---
+## 🏷️ Tags
+#MLProject #DrBilalAhmad #LoanApproval #MLwithDrBilalAhmad 
