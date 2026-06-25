@@ -1,1 +1,30 @@
+---
+# This front matter block tells Jekyll to compile this file into global CSS!
+---
 
+/* 1. Inherit all default Chirpy theme layouts */
+@import 'main';
+
+/* ==========================================================================
+   💾 Tech Glow Card Modifications (Blog & Topics)
+   ========================================================================== */
+
+/* Apply a glowing border aura to every post list item card AND every topic list card box container */
+[id=post-list] .card, .post-preview, #categories .card, .categories-list .card {
+  border: 1px solid rgba(56, 189, 248, 0.2) !important; /* Subtle tech border */
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.15) !important; /* The background neon glow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+/* Make the glow intensify when a user hovers their mouse over any card container */
+[id=post-list] .card:hover, .post-preview:hover, #categories .card:hover, .categories-list .card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(56, 189, 248, 0.4) !important;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.3) !important; /* Brighter accent glow */
+}
+
+/* Ensure the cute illustration thumbnails on the blog page don't overflow the rounded card borders */
+[id=post-list] .preview-img, .post-preview .preview-img {
+  border-radius: 8px 0 0 8px !important;
+  overflow: hidden;
+}
