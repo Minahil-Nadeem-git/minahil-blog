@@ -87,6 +87,9 @@ A poorly designed structure could create redundancy and make future analysis dif
 
 ---
 
+<img width="1023" height="631" alt="image" src="https://github.com/user-attachments/assets/c1554279-9ccb-452c-ac3d-a6d352d6ebfb" />
+
+
 ## 🔄 The Role of Normalization
 
 Normalization was one of the most important parts of the project.
@@ -174,7 +177,9 @@ Behind every useful application, research study, or analytical system is a caref
 
 This project helped me appreciate the importance of data organization and showed me how database concepts can be applied to real-world problems.
 
+
 ---
+<img width="847" height="648" alt="image" src="https://github.com/user-attachments/assets/503da62e-737b-4748-806b-cad6bd58a415" />
 
 ### 📚 Further Reading
 
