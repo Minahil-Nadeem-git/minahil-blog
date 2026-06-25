@@ -8,8 +8,8 @@ layout: post
 comments: true
 toc: true
 image:
-path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
-alt: Online Learning Journey
+  path: https://i.pinimg.com/736x/94/28/cb/9428cbeb2e8f08edb8bc81385f4124f2.jpg
+  alt: Online Learning Journey
 ---
 
 > *One of the biggest challenges of my second semester was learning how to adapt when classes constantly shifted between online and on-campus modes.*
