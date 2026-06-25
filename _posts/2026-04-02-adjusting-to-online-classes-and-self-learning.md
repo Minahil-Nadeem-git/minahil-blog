@@ -8,7 +8,7 @@ layout: post
 comments: true
 toc: true
 image:
-  path: https://i.pinimg.com/webp87/1200x/00/77/cb/0077cbd5b342e791060befe976f36d71.webp
+  path: https://i.pinimg.com/webp87/1200x/37/ae/f3/37aef38fdca429dbad53068e22ef17f4.webp
   alt: Online Learning Journey
 ---
 
