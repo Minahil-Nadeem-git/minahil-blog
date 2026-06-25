@@ -7,8 +7,8 @@ layout: post
 comments: true
 toc: true
 image:
-path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
-alt: Time Management Lessons
+  path: https://i.pinimg.com/1200x/47/05/dd/4705dd3e8f103ac8235460710f4f5c85.jpg
+  alt: Time Management Lessons
 ---
 
 > *Sometimes the best lessons are learned after making mistakes. My biggest lesson this semester was understanding the cost of delaying work.*
