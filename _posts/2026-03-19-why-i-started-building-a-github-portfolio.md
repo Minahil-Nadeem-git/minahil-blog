@@ -7,7 +7,7 @@ layout: post
 comments: true
 toc: true
 image:
-  path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
+  path: https://i.pinimg.com/736x/59/f7/2b/59f72bb8bc72933052117d53f4658592.jpg
   alt: Launching Portfolio
 ---
 
