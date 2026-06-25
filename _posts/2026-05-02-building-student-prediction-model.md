@@ -2,7 +2,7 @@
 
 title: "Building a Student Stress Prediction Database"
 date: 2026-05-05
-categories: [Database Systems, Projects]
+categories: [2nd Semester, Database Journey]
 tags: [DatabaseSystems, StudentStressPrediction, SQL]
 layout: post
 comments: true
