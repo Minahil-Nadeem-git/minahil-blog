@@ -11,21 +11,28 @@ permalink: /
 
 ---
 
-<!-- The responsive grid automatically wraps items on smaller screens -->
-<div class="custom-dashboard-grid">
+<div class="tech-dashboard-grid">
 
-  <!-- Left Card: Focus Areas -->
-  <div class="custom-dashboard-card focus-card">
-    <h3 class="card-heading">🎯 Focus Areas</h3>
-    <div class="card-item">🐍 Python Programming</div>
-    <div class="card-item">🗄️ Database Systems</div>
+  <!-- Folder 1 -->
+  <div class="tech-card focus-card">
+    <div class="card-meta">FOLDER 1</div>
+    <h3 class="card-title">🎯 Focus Areas</h3>
+    <p class="card-desc">Python scripting architectures, database logic schemas, and core computer engineering milestones.</p>
+    <div class="card-badges">
+      <span class="badge b-teal">🐍 Python</span>
+      <span class="badge b-teal">🗄️ Databases</span>
+    </div>
   </div>
 
-  <!-- Right Card: Highlights -->
-  <div class="custom-dashboard-card highlight-card">
-    <h3 class="card-heading">📌 Highlights</h3>
-    <div class="card-item">📊 Machine Learning Projects</div>
-    <div class="card-item">📖 Academic Reflections</div>
+  <!-- Folder 2 -->
+  <div class="tech-card highlight-card">
+    <div class="card-meta">FOLDER 2</div>
+    <h3 class="card-title">📌 Highlights</h3>
+    <p class="card-desc">Machine learning exploratory implementations, data engineering, and core academic reflections.</p>
+    <div class="card-badges">
+      <span class="badge b-blue">📊 ML Projects</span>
+      <span class="badge b-blue">📖 Academics</span>
+    </div>
   </div>
 
 </div>
