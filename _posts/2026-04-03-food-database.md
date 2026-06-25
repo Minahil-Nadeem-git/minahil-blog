@@ -1,7 +1,7 @@
 ---
 title: "My Food Delivery Database in MySQL"
 date: 2026-04-03
-categories: [Database journey]
+categories: [Database Systems]
 tags: [DBS]
 layout: post
 comments: true
