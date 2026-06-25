@@ -2,7 +2,7 @@
 
 title: "Completing 14 Manuals in Two Days"
 date: 2026-05-20
-categories: [Semester Survival, Student Life]
+categories: [2nd Semester, Academic Life]
 tags: [DatabaseSystems, LabWork, TimeManagement]
 layout: post
 comments: true
