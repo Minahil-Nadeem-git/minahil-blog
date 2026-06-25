@@ -2,7 +2,7 @@
 # This front matter block tells Jekyll to compile this layout file into global CSS!
 ---
 
-/* 1. Inject the Core Chirpy Framework Styles (CRITICAL PIPELINE HOOK) */
+/* 1. Inject the Core Chirpy Framework Styles */
 @import 'main';
 
 /* ==========================================================================
@@ -23,82 +23,118 @@ html[data-mode='light'] {
   --card-bg: #ffffff !important;
   --text-color: #475569 !important;
   --heading-color: #0f172a !important;
-  --btn-border-color: rgba(0, 0, 0, 0.06) !important;
+  --btn-border-color: rgba(0, 0, 0, 0.08) !important;
 }
 
 /* ==========================================================================
-   3. 🎛️ Responsive Dashboard Card Structure
+   3. 🎛️ Responsive Dashboard Card Structure (Home Page)
    ========================================================================== */
 .tech-dashboard-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  margin: 30px 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Shrinks the card box sizes */
+  gap: 16px; /* Tighter padding spacing */
+  margin: 20px 0;
+  max-width: 800px; /* Prevents stretching too wide */
 }
 
 .tech-card {
   background-color: var(--card-bg) !important;
   border: 1px solid var(--btn-border-color) !important;
-  border-radius: 16px;
-  padding: 24px;
+  border-radius: 12px;
+  padding: 16px;
   position: relative;
-  backdrop-filter: blur(8px);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(56, 189, 248, 0.12);
+    transform: translateY(-2px);
     border-color: rgba(56, 189, 248, 0.4) !important;
   }
 }
 
 .card-meta {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
   color: #64748b;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .card-title {
   margin-top: 0 !important;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--heading-color) !important;
 }
 
 .card-desc {
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 0.85rem;
+  line-height: 1.5;
   color: var(--text-color);
-  margin: 12px 0 20px 0;
+  margin: 8px 0 12px 0;
 }
 
-.card-badges {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+.card-badges { display: flex; gap: 8px; flex-wrap: wrap; }
+.badge { font-size: 0.7rem; padding: 4px 10px; border-radius: 12px; }
+.b-teal { background: rgba(0, 255, 204, 0.08) !important; color: #00ffcc !important; }
+.b-blue { background: rgba(56, 189, 248, 0.08) !important; color: #38bdf8 !important; }
+
+/* ==========================================================================
+   4. 📬 Blog Post Feed Layout Fixes
+   ========================================================================== */
+/* Wraps blog posts inside structured cards */
+#post-list .card {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--btn-border-color) !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  margin-bottom: 16px !important;
+  box-shadow: none !important;
 }
 
-.badge {
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 6px 14px;
+/* Fixes the massive cute illustration graphics */
+#post-list .preview-img {
+  max-width: 140px !important; /* Constrains the image width */
+  margin: 0 auto !important;
+}
+
+#post-list .preview-img img {
+  max-height: 110px !important;
+  object-fit: contain !important;
+  border-radius: 8px;
+}
+
+/* ==========================================================================
+   5. 🗂️ Topics / Categories Page Card Grouping Fix
+   ========================================================================== */
+/* Wraps each topic category and its nested post links in a border container box */
+.card.categories-card, #categories .card, #tags .card {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--btn-border-color) !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+/* Highlights the relationship structure so links belong to their headers */
+#categories ul, .categories-list {
+  border-left: 2px solid var(--btn-border-color);
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+/* ==========================================================================
+   6. ⚙️ Interface Layout Tweaks (Search & Theme Panels)
+   ========================================================================== */
+/* Cleans up the floating native search bar input console field background */
+#search-input {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--btn-border-color) !important;
+  color: var(--text-color) !important;
   border-radius: 20px;
-  display: inline-flex;
-  align-items: center;
 }
 
-.b-teal {
-  background-color: rgba(0, 255, 204, 0.08) !important;
-  color: #00ffcc !important;
-  border: 1px solid rgba(0, 255, 204, 0.2);
-}
-
-.b-blue {
-  background-color: rgba(56, 189, 248, 0.08) !important;
-  color: #38bdf8 !important;
-  border: 1px solid rgba(56, 189, 248, 0.2);
+/* Fixes the theme select panel dropdown component overlap look */
+.dropdown-menu {
+  background-color: var(--sidebar-bg) !important;
+  border: 1px solid var(--btn-border-color) !important;
+  border-radius: 8px;
 }
