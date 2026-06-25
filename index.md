@@ -4,47 +4,23 @@ title: Home
 permalink: /
 ---
 
-## 👋 Welcome
+# 👋 Hi, I'm Minahil Nadeem
 
-I am **Minahil Nadeem**, a Computer Engineering student.  
-# 👋 Welcome to My Engineering Journey
+> Computer Engineering Student at UET Lahore, Faisalabad Campus
 
-> *Documenting my growth as a Computer Engineering student at UET Lahore, Faisalabad Campus.*
+*Documenting my journey through Programming, Databases, Projects, and University Life.*
 
----
-
-## 🚀 What You'll Find Here
-
-### 🐍 Programming Fundamentals
-- Python Programming
-- Problem Solving
-- Debugging Experiences
-- Project Development
-
-### 🗄️ Database Systems
-- ER Diagrams
-- Normalization
-- SQL Queries
-- Relational Algebra
-
-### 📖 Personal Reflections
-- University Life
-- Online Learning
-- Time Management
-- Lessons Learned
 
 ---
 
-## 📊 Portfolio Highlights
+### 🎯 Focus Areas
 
-| Area | Focus |
-|--------|--------|
-| Programming | Python |
-| Database Systems | SQL, Normalization |
-| Projects | Loan Prediction |
-| Database Project | Student Stress Prediction |
-| University | UET Lahore (FSD Campus) |
+🐍 Python Programming  
+🗄️ Database Systems  
+📊 Machine Learning Projects  
+📖 Academic Reflections
 
 ---
 
-> "Every project, mistake, and challenge documented here helped me become a better engineer."
+
+[📚 Explore My Blog](/categories/)
