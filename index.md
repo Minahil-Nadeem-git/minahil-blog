@@ -21,6 +21,3 @@ permalink: /
 ---
 
 
-That entire page fits on one screen.
-
-Even
