@@ -1,1 +1,120 @@
 
+/* ==========================================================================
+   Custom Theme Overrides (Light & Dark Skins)
+   ========================================================================== */
+
+/* ☀️ Light Mode Styles */
+html[data-mode='light'] {
+  --sidebar-bg: #1e1e24;       /* Change the left sidebar panel color */
+  --main-bg: #ffffff;          /* Main canvas background */
+  --heading-color: #2a2a2a;    /* Color of headers (h1, h2, h3) */
+  --link-color: #0076df;       /* Accent color for standard hyperlinks */
+}
+
+/* 🌙 Dark Mode Styles */
+html[data-mode='dark'] {
+  --sidebar-bg: #121214;       /* Dark sidebar panel color */
+  --main-bg: #1a1a1e;          /* Main content dark canvas background */
+  --heading-color: #f0f0f5;    /* Color of headings under dark mode */
+  --link-color: #38bdf8;       /* Glowing cyan link/accent colors */
+}
+
+
+/* ==========================================================================
+   1. Custom Home Dashboard Cards 
+   ========================================================================== */
+.custom-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 25px 0;
+}
+
+.custom-dashboard-card {
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: var(--main-bg);
+  border: 1px solid var(--btn-border-color);
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.card-heading {
+  margin-top: 0 !important;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: var(--heading-color) !important;
+}
+
+.card-item {
+  margin: 14px 0;
+  font-size: 0.98rem;
+  color: var(--text-color);
+}
+
+.focus-card .card-heading { border-bottom: 3px solid #00ffcc; }
+.highlight-card .card-heading { border-bottom: 3px solid #38bdf8; }
+
+
+/* ==========================================================================
+   2. Custom Blog Page Upgrades (Image & Layout Fixes)
+   ========================================================================== */
+
+/* Fixes the large post layout box elements */
+#post-list .card {
+  border-radius: 16px !important;
+  border: 1px solid var(--btn-border-color) !important;
+  background-color: var(--main-bg) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  margin-bottom: 24px !important;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08) !important;
+  }
+}
+
+/* Constrains post thumbnail images to a neat layout box */
+#post-list .preview-img img {
+  max-height: 180px !important;
+  object-fit: contain !important; /* Prevents cute illustrations from getting cropped out */
+  background-color: transparent !important;
+  padding: 10px;
+}
+
+/* Enhances the "Read More" button alignment and design */
+#post-list .btn-outline-primary {
+  background-color: #38bdf8 !important; /* Sleek structural custom blue */
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 6px 16px !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 6px rgba(56, 189, 248, 0.3);
+
+  &:hover {
+    background-color: #009ad4 !important;
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.5);
+  }
+}
+
+
+/* ==========================================================================
+   3. Global Theme Dynamic Mode Settings
+   ========================================================================== */
+html[data-mode='dark'] {
+  .custom-dashboard-card, #post-list .card {
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
