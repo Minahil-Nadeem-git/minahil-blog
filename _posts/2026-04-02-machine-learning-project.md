@@ -9,7 +9,7 @@ layout: post
 comments: true
 toc: true
 image:
-  path: https://github.com/user-attachments/assets/43937498-47c4-466a-8e61-2df6da74085a
+  path: https://i.pinimg.com/736x/a1/ca/d7/a1cad72ba68db84efc83efb50a2e2404.jpg
   alt: SQL Database
 ---
 
