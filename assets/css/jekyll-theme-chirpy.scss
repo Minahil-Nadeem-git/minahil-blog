@@ -1,44 +1,187 @@
-/* --- 🪐 Midnight Teal Theme Accent Overrides --- */
+---
+---
+
+@import "main";
+
+/* ===========================
+   Custom Theme Colors
+   =========================== */
 
 :root {
-  /* Soft background panels matching the inspiration dashboard */
-  --card-bg-custom: rgba(16, 28, 41, 0.6);
-  --card-border-custom: 1px solid rgba(43, 114, 166, 0.25);
-  
-  /* Vibrant technical tag highlights */
-  --focus-glow: #00ffcc;
-  --highlight-glow: #38bdf8;
+  --main-bg: #0f1117;
+  --card-bg: #161b22;
+  --sidebar-bg: #111827;
+
+  --text-color: #e5e7eb;
+  --text-muted: #9ca3af;
+
+  --link-color: #8b5cf6;
+  --link-hover-color: #a78bfa;
+
+  --btn-bg: #8b5cf6;
+  --btn-hover-bg: #7c3aed;
+
+  --heading-color: #f8fafc;
+
+  --border-color: #27272a;
+
+  --code-bg: #1a1b26;
+
+  --selection-bg: rgba(139, 92, 246, 0.3);
 }
 
-/* Sidebar Custom Styling Adjustments */
+/* ===========================
+   Background
+   =========================== */
+
+body {
+  background: var(--main-bg);
+  color: var(--text-color);
+}
+
+/* ===========================
+   Sidebar
+   =========================== */
+
 #sidebar {
-  background-color: #0b131a !important;
-  border-right: 1px solid rgba(43, 114, 166, 0.15);
+  background: linear-gradient(
+    180deg,
+    #111827 0%,
+    #0f1117 100%
+  );
+
+  border-right: 1px solid rgba(139, 92, 246, 0.15);
 }
 
-/* Custom horizontal alignment cards */
-.dashboard-grid-table {
-  width: 100% !important;
-  border-collapse: separate !important;
-  border-spacing: 20px 0 !important;
-  margin: 25px 0 !important;
-  background: transparent !important;
+/* ===========================
+   Cards
+   =========================== */
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid rgba(139, 92, 246, 0.1);
+
+  border-radius: 18px;
+
+  transition: all 0.3s ease;
 }
 
-.custom-panel-left {
-  background: var(--card-bg-custom) !important;
-  border: var(--card-border-custom) !important;
-  border-top: 4px solid var(--focus-glow) !important;
-  border-radius: 12px !important;
-  padding: 20px !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+.card:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(139, 92, 246, 0.4);
+
+  box-shadow:
+    0 10px 30px rgba(139, 92, 246, 0.12);
 }
 
-.custom-panel-right {
-  background: var(--card-bg-custom) !important;
-  border: var(--card-border-custom) !important;
-  border-top: 4px solid var(--highlight-glow) !important;
-  border-radius: 12px !important;
-  padding: 20px !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+/* ===========================
+   Titles
+   =========================== */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--heading-color);
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 800;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-left: 4px solid #8b5cf6;
+  padding-left: 12px;
+}
+
+/* ===========================
+   Links
+   =========================== */
+
+a {
+  color: var(--link-color);
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+/* ===========================
+   Code Blocks
+   =========================== */
+
+.highlight,
+pre {
+  background: #111827 !important;
+
+  border-radius: 16px;
+
+  border: 1px solid rgba(139, 92, 246, 0.15);
+
+  padding: 1rem;
+}
+
+/* ===========================
+   Tables
+   =========================== */
+
+table {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+thead {
+  background: #8b5cf6;
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+
+.btn {
+  border-radius: 999px;
+}
+
+.btn-primary {
+  background: #8b5cf6;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #7c3aed;
+}
+
+/* ===========================
+   Selection
+   =========================== */
+
+::selection {
+  background: var(--selection-bg);
+}
+
+/* ===========================
+   Scrollbar
+   =========================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b5cf6;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
 }
