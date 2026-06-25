@@ -8,8 +8,8 @@ layout: post
 comments: true
 toc: true
 image:
-path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
-alt: Learning Python Through Mistakes
+  path: https://i.pinimg.com/736x/11/bc/38/11bc381832643e71df9488be16cdeabf.jpg
+  alt: Learning Python Through Mistakes
 ---
 
 > *Looking back, some of my biggest programming mistakes seem funny now. At the time, however, they felt like impossible problems.*
