@@ -1,0 +1,44 @@
+/* --- 🪐 Midnight Teal Theme Accent Overrides --- */
+
+:root {
+  /* Soft background panels matching the inspiration dashboard */
+  --card-bg-custom: rgba(16, 28, 41, 0.6);
+  --card-border-custom: 1px solid rgba(43, 114, 166, 0.25);
+  
+  /* Vibrant technical tag highlights */
+  --focus-glow: #00ffcc;
+  --highlight-glow: #38bdf8;
+}
+
+/* Sidebar Custom Styling Adjustments */
+#sidebar {
+  background-color: #0b131a !important;
+  border-right: 1px solid rgba(43, 114, 166, 0.15);
+}
+
+/* Custom horizontal alignment cards */
+.dashboard-grid-table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 20px 0 !important;
+  margin: 25px 0 !important;
+  background: transparent !important;
+}
+
+.custom-panel-left {
+  background: var(--card-bg-custom) !important;
+  border: var(--card-border-custom) !important;
+  border-top: 4px solid var(--focus-glow) !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-panel-right {
+  background: var(--card-bg-custom) !important;
+  border: var(--card-border-custom) !important;
+  border-top: 4px solid var(--highlight-glow) !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
