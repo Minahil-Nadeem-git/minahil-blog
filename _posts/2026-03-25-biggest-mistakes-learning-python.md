@@ -2,7 +2,7 @@
 
 title: "The Biggest Mistakes I Made While Learning Python"
 date: 2026-03-25
-categories: [1st Semester, Programming Discoveries]
+categories: [1st Semester, Programming Journey]
 tags: [Python, ProgrammingFundamentals, BeginnerJourney]
 layout: post
 comments: true
