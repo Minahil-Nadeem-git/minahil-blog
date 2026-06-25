@@ -8,7 +8,7 @@ layout: post
 comments: true
 toc: true
 image:
-path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
+path: https://i.pinimg.com/736x/ea/35/a3/ea35a3c42ec1e56b7f85e41a8ff22c00.jpg
 alt: Database Learning Journey
 ---
 
