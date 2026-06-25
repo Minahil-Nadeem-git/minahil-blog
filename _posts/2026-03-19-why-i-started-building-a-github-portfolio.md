@@ -1,7 +1,7 @@
 ---
 title: "Why I Started Building a GitHub Portfolio"
 date: 2026-03-20
-categories: [1st Semester, Programming Discoveries] 
+categories: [Developer Tools, Git & GitHub] 
 tags: [Portfolio, Engineering Life]
 layout: post
 comments: true
