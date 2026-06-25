@@ -13,9 +13,10 @@ permalink: /
 
 <div class="tech-dashboard-grid">
 
-  <!-- Folder 1 -->
+  <!-- Card 1 -->
   <div class="tech-card focus-card">
-    <div class="card-meta">FOLDER 1</div>
+    <!-- You can change this text to anything you want, or delete this line completely! -->
+    <div class="card-meta">Core Skills</div> 
     <h3 class="card-title">🎯 Focus Areas</h3>
     <p class="card-desc">Python scripting architectures, database logic schemas, and core computer engineering milestones.</p>
     <div class="card-badges">
@@ -24,9 +25,10 @@ permalink: /
     </div>
   </div>
 
-  <!-- Folder 2 -->
+  <!-- Card 2 -->
   <div class="tech-card highlight-card">
-    <div class="card-meta">FOLDER 2</div>
+    <!-- Changed from FOLDER 2 to a clean tracking subtitle -->
+    <div class="card-meta">Featured Work</div> 
     <h3 class="card-title">📌 Highlights</h3>
     <p class="card-desc">Machine learning exploratory implementations, data engineering, and core academic reflections.</p>
     <div class="card-badges">
