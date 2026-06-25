@@ -1,22 +1,25 @@
 ---
+# This front matter block tells Jekyll to compile this layout file into global CSS!
 ---
 
-/* ==========================================================================
-   🌌 Premium Cyber-Tech Theme Variable Ecosystem
-   ========================================================================== */
+/* 1. Inject the Core Chirpy Framework Styles (CRITICAL PIPELINE HOOK) */
+@import 'main';
 
+/* ==========================================================================
+   2. 🌌 Premium Cyber-Tech Theme Variable Ecosystem
+   ========================================================================== */
 html[data-mode='dark'] {
-  --main-bg: #0b111e !important;          /* Deep outer space dark canvas background */
-  --sidebar-bg: #070b14 !important;       /* Darker sleek sidebar command console track */
-  --card-bg: rgba(15, 23, 42, 0.6) !important; /* Translucent smoky slate card glass */
-  --text-color: #94a3b8 !important;       /* Muted technical gray for readability */
-  --heading-color: #f8fafc !important;    /* Crisp neon-white typography titles */
-  --btn-border-color: rgba(56, 189, 248, 0.15) !important; /* Glowing subtle grid frame */
+  --main-bg: #0b111e !important;          
+  --sidebar-bg: #070b14 !important;       
+  --card-bg: rgba(15, 23, 42, 0.6) !important; 
+  --text-color: #94a3b8 !important;       
+  --heading-color: #f8fafc !important;    
+  --btn-border-color: rgba(56, 189, 248, 0.15) !important; 
 }
 
 html[data-mode='light'] {
-  --main-bg: #f8fafc !important;          /* Clean minimalist light lab canvas */
-  --sidebar-bg: #0f172a !important;       /* Keep the sidebar professional navy-slate */
+  --main-bg: #f8fafc !important;          
+  --sidebar-bg: #0f172a !important;       
   --card-bg: #ffffff !important;
   --text-color: #475569 !important;
   --heading-color: #0f172a !important;
@@ -24,7 +27,7 @@ html[data-mode='light'] {
 }
 
 /* ==========================================================================
-   🎛️ Responsive Dashboard Card Structure
+   3. 🎛️ Responsive Dashboard Card Structure
    ========================================================================== */
 .tech-dashboard-grid {
   display: grid;
@@ -50,7 +53,6 @@ html[data-mode='light'] {
   }
 }
 
-/* Metadata Tracker text (e.g., FOLDER 1) */
 .card-meta {
   font-size: 0.72rem;
   font-weight: 700;
@@ -74,7 +76,6 @@ html[data-mode='light'] {
   margin: 12px 0 20px 0;
 }
 
-/* Tech System Badges Layout */
 .card-badges {
   display: flex;
   gap: 10px;
@@ -90,7 +91,6 @@ html[data-mode='light'] {
   align-items: center;
 }
 
-/* Color definitions for the neon badges */
 .b-teal {
   background-color: rgba(0, 255, 204, 0.08) !important;
   color: #00ffcc !important;
@@ -101,19 +101,4 @@ html[data-mode='light'] {
   background-color: rgba(56, 189, 248, 0.08) !important;
   color: #38bdf8 !important;
   border: 1px solid rgba(56, 189, 248, 0.2);
-}
-
-/* ==========================================================================
-   📬 Blog Post Feed Styles Integration 
-   ========================================================================== */
-#post-list .card {
-  background-color: var(--card-bg) !important;
-  border: 1px solid var(--btn-border-color) !important;
-  border-radius: 16px !important;
-  transition: all 0.25s ease;
-
-  &:hover {
-    border-color: rgba(56, 189, 248, 0.3) !important;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2) !important;
-  }
 }
