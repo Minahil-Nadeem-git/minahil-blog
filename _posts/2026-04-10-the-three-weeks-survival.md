@@ -1,4 +1,5 @@
 ---
+
 title: "The Three Weeks That Nearly Broke Our Semester"
 date: 2026-04-10
 categories: [Semester Survival, Student Life]
