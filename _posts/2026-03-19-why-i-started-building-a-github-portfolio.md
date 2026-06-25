@@ -7,7 +7,7 @@ layout: post
 comments: true
 toc: true
 image:
-  path: https://i.pinimg.com/736x/89/25/a6/8925a64f6b430a0b1bb061dfbfa66bf4.jpg
+  path: https://i.pinimg.com/736x/2a/58/66/2a5866c4d31064823e295c5b8a0ffc59.jpg
   alt: Launching Portfolio
 ---
 
