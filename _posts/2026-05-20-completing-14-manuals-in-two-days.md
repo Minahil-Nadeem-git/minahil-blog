@@ -8,8 +8,8 @@ layout: post
 comments: true
 toc: true
 image: 
-path: https://github.com/user-attachments/assets/00147ea3-335b-48ec-8ccd-9535c6d2bca1
-alt: Completing 14 Manuals Under Pressure
+  path: https://github.com/user-attachments/assets/00147ea3-335b-48ec-8ccd-9535c6d2bca1
+  alt: Completing 14 Manuals Under Pressure
 ---
 
 > *What started as a relaxing Eid break quickly turned into one of the most stressful academic experiences of my semester.*
