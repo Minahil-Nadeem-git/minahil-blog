@@ -2,7 +2,7 @@
 
 title: "Adjusting to Online Classes and Self-Learning"
 date: 2026-04-02
-categories: [Semester Survival, Learning Experience]
+categories: [Semester Survival, The Beginning of My Tech Journey]
 tags: [OnlineClasses, SelfLearning, ComputerEngineering]
 layout: post
 comments: true
