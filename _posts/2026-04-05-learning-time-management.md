@@ -1,7 +1,7 @@
 ---
 title: "Learning Time Management the Hard Way"
 date: 2026-04-05
-categories: [Personal Growth, Semester Survival]
+categories: [Semester Survival,Personal Growth]
 tags: [TimeManagement, StudentLife, LearningJourney]
 layout: post
 comments: true
