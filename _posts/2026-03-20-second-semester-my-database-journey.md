@@ -8,8 +8,8 @@ layout: post
 comments: true
 toc: true
 image:
-path: https://i.pinimg.com/736x/ea/35/a3/ea35a3c42ec1e56b7f85e41a8ff22c00.jpg
-alt: Database Learning Journey
+  path: https://i.pinimg.com/736x/ea/35/a3/ea35a3c42ec1e56b7f85e41a8ff22c00.jpg
+  alt: Database Learning Journey
 ---
 
 > *When I first heard terms like normalization, relational algebra, and SQL joins, they sounded intimidating. Looking back now, Database Systems became one of the most interesting courses of my second semester.*
