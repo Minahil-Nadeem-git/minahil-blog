@@ -2,14 +2,14 @@
 
 title: "Looking Back at My Semester and Planning Ahead"
 date: 2026-06-02
-categories: [Reflection, Personal Growth]
+categories: [Semester Survival, Personal Growth]
 tags: [SemesterReflection, LearningJourney, FutureGoals]
 layout: post
 comments: true
 toc: true
 image:
-path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
-alt: Looking Ahead After a Semester of Growth
+  path: https://i.pinimg.com/736x/9b/ea/b8/9beab83088c2d2471b670787f63a92a2.jpg
+  alt: Looking Ahead After a Semester of Growth
 ---
 
 > *When a semester begins, it feels like there is plenty of time. When it ends, you realize how much happened in just a few months.*
