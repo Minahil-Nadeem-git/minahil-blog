@@ -21,6 +21,3 @@ permalink: /
 📖 Academic Reflections
 
 ---
-
-
-[📚 Explore My Blog](/categories/)
