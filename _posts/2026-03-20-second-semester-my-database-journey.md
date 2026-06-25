@@ -2,7 +2,7 @@
 
 title: "My Journey Through Database Systems"
 date: 2026-04-10
-categories: [Database Systems, Learning Journey]
+categories: [2nd Semester, Database Journey]
 tags: [DatabaseSystems, SQL, ComputerEngineering]
 layout: post
 comments: true
