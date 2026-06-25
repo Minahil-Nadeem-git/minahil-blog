@@ -8,8 +8,8 @@ layout: post
 comments: true
 toc: true
 image:
-path: https://github.com/user-attachments/assets/8d831d84-a179-419c-b345-fe53a6e0c87a
-alt: Semester Deadline Rush
+  path: https://i.pinimg.com/webp87/1200x/65/a1/0b/65a10b505e3001c955109b7f1906a314.webp
+  alt: Semester Deadline Rush
 ---
 
 > *Every semester has one week that students never forget. For me, it was the two weeks before final exams.*
