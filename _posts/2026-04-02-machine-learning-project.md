@@ -1,7 +1,7 @@
 ---
 title: "Loan Approval Prediction Using Random Forest Classifier"
 date: 2026-04-02
-categories: [Machine Learning]
+categories: [Database Systems, Machine Learning Project]
 tags: [python, scikit-learn, random-forest, analysis]
 math: true
 mermaid: true
